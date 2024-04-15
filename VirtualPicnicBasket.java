@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class VirtualPicnicBasket {
 
-    private final ArrayList<String> items = new <String>ArrayList();
+    private final ArrayList<String> items = new ArrayList();
 
     public VirtualPicnicBasket(String fileName, String delimeter) throws Exception {
         Scanner scanner = new Scanner(new File(fileName));
